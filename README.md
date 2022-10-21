@@ -1,6 +1,6 @@
-## My GitHub Learning Lab Repository for Communicating Using Markdown
+## Hello, I'm Ivo Arrey
 
-Welcome to **Ivo Arrey's** repository for portfolio display. This repository will be used during the different activities that I will be doing during the Odin learning.
+Welcome to **Ivo Arrey's** repository for portfolio display. 
 
-Oh! I haven't introduced myself...
+Ivo is a co-founder of [AbbaTek Group Inc.](https://abbatekgroup.com/), we are driven by Community Science initiatives whose manin goal is to create that perfect harmony between science and communities.
 
