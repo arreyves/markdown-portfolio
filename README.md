@@ -1,4 +1,4 @@
-## Hello ![hello2.png](), I'm Ivo Arrey
+## Hello ![hello2.png](https://github.com/arreyves/markdown-portfolio/blob/main/images/hello2.png), I'm Ivo Arrey
 
 Who is **Ivo Arrey** ? 
 
