@@ -41,7 +41,7 @@ Entrepreneurship
 <p align='left'>
   <a href='https://github.com/arreyves/MPConnect'><img width='400' src='https://github-readme-stats.vercel.app/api/pin/?username=arreyves&repo=MPConnect&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false'
  alt='MPConnect'></a>
-    <a href='https://github.com/AbbaTek-Group/HIVE-Landing'><img width='400' src='https://github-readme-stats.vercel.app/api/pin/?username=AbbaTek-Group&repo=HIVE-Landing&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false'
- alt='HIVE-Landing'></a>
+    <a href='https://github.com/arreyves/uFTIR'><img width='400' src='https://github-readme-stats.vercel.app/api/pin/?username=arreyves&repo=uFTIR&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false'
+ alt='uFTIR'></a>
 
 </p>
