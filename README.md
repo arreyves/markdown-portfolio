@@ -1,4 +1,4 @@
-# Hello, I'm Ivo Arrey <img src='https://github.com/arreyves/markdown-portfolio/blob/main/images/hello2.png' width='25'>
+## Hello, I'm Ivo Arrey <img src='https://github.com/arreyves/markdown-portfolio/blob/main/images/hello2.png' width='25'>
 
 <img src='https://github.com/arreyves/markdown-portfolio/blob/main/images/Ivo_abbatek_profile_pic.jpg' height='100'>
 
