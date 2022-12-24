@@ -10,9 +10,9 @@ I sometimes run my experiments using R and Fortran on high performance and high 
 
 Here are some of the fun stuff I enjoy working on:
 * Earth monitoring time series data
-* Modelling and data Visualization
-* Machine Learning and Decision Science
-* Data products, Maps and APIs 
+* Modelling and data visualization
+* Machine learning and decision science
+* Data products, maps and APIs 
 * Bayesian statistics
 
 
@@ -37,3 +37,11 @@ alt='r-raster-vector-geospatial'></a>
 </p>
 
 Entrepreneurship
+
+<p align='left'>
+  <a href='https://github.com/AbbaTek-Group/MPConnectdb'><img width='400' src='https://github-readme-stats.vercel.app/api/pin/?username=AbbaTek-Group&repo=CCBOR&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false'
+ alt='MPConnectdb'></a>
+    <a href='https://github.com/AbbaTek-Group/HIVE-Landing'><img width='400' src='https://github-readme-stats.vercel.app/api/pin/?username=AbbaTek-Group&repo=CCBOR&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false'
+ alt='HIVE-Landing'></a>
+
+</p>
