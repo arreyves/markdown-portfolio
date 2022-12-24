@@ -45,3 +45,13 @@ Entrepreneurship
  alt='uFTIR'></a>
 
 </p>
+
+Workshops
+
+<p align='left'>
+  <a href='https://github.com/mun-swc-hub/2019-05-09-mun'><img width='400' src='https://github-readme-stats.vercel.app/api/pin/?username=mun-swc-hub&repo=2019-05-09-mun&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false'
+ alt='2019-05-09-mun'></a>
+    <a href='https://github.com/mun-swc-hub/2018-03-12-mun'><img width='400' src='https://github-readme-stats.vercel.app/api/pin/?username=mun-swc-hub&repo=2018-03-12-mun&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false'
+ alt='2018-03-12-mun'></a>
+
+</p>
