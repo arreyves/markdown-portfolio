@@ -16,6 +16,10 @@ Here are some of the fun stuff I enjoy working on:
 * Bayesian statistics
 
 
+## Data Scientist BlackBelt
+
+
+
 ## Main projects
 
 Publications
