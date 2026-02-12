@@ -1,0 +1,21 @@
+name: laterite_eval
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - geopandas
+  - openpyxl
+  - jupyter
+  - ipykernel
+  - r-base
+  - r-essentials
+  - scikit-learn
+  - tensorflow
+  - pip
+  - pip:
+    - langchain

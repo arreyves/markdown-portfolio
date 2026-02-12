@@ -17,8 +17,9 @@ Here are some of the fun stuff I enjoy working on:
 
 
 ## Data Scientist BlackBelt
-
-
+I am a Hydroinformatics specialist and AI Agent architect with 8+ years of experience building autonomous systems for complex environmental 
+and geospatial challenges. My work bridges the gap between high-level Agentic AI frameworks and the granular data integrity required for impactful socio-economic research.
+As a Certified Instructor for The Carpentries, I am passionate about computational reproducibility and mentoring the next generation of data scientists. Whether I’m designing self-directed AI agents for microplastics detection or cleaning large-scale household survey datasets, my focus remains on data quality, uncertainty quantification, and scalable innovation.
 
 ## Main projects
 
