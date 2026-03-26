@@ -23,7 +23,31 @@ As a Certified Instructor for The Carpentries, I am passionate about computation
 
 ## Main projects
 
-Publications
+# PipingPINN: A Physics-Informed Neural Network for Digital Dike Resilience
+1. Executive Summary
+PipingPINN is a multiscale modeling framework designed to predict Backward Erosion Piping (BEP) in urban levee systems. By integrating the Laplace Equation for steady-state seepage and Sellmeijer’s Rule into a Deep Learning architecture, this project bridges the gap between traditional geotechnical engineering and real-time infrastructure monitoring.
+2. The Engineering Challenge
+Backward erosion piping is a leading cause of catastrophic dike breaches. Traditional methods (e.g., Finite Element Analysis) are computationally expensive and difficult to scale for real-time "Digital Twin" applications. PipingPINN addresses this by:
+* Physics-Constraint: Embedding the PDE (Partial Differential Equation) residuals directly into the loss function to ensure physical consistency.
+* Risk Scaling: Translating microscopic hydraulic gradients into macroscopic "Risk Scores" for municipal decision-makers.
+3. Methodology & Innovation
+This project implements a Physics-Informed Neural Network (PINN) trained on synthetic datasets generated from process-based hydrologic models.
+* Subsurface Flow: Solves $\nabla^2 h = 0$ using automatic differentiation.
+* Geotechnical Integration: Incorporates soil properties ($d_{70}$, uniformity) to calculate the Critical Hydraulic Gradient based on Sellmeijer’s criteria.
+* Asset Management: Designed as a "Decision Support Tool" that ingests sensor data (Piezometer/IoT) to predict failure pathways.
+
+# GPR3D-Voxel: Automated 3D Volumetric Reconstruction of Subsurface Anomalies
+1. Executive Summary 
+
+2. The Engineering Challenge
+Standard GPR interpretation relies on manual 'hyperbola picking' on 2D radargrams, which is slow and prone to error. This project automates the inversion of multi-channel GPR data into a Voxelized 3D Volume, enabling intuitive structural health monitoring (SHM).
+
+3. Methodology & Innovation
+* Signal Pre-processing: Performed standard ETL and Time-zero correction removing low frequency noise and gain control
+* Data Inversion & Interpolation: Used Delaunay Triangulation and Krigging to interpolate amplitudes between parallel 2D profiles into a structured 3D grid.
+* Voxelization & Thresholding: Applied a scalar threshold filter to hide low amplitude signals to show only high-amplitude reflections depicting anomalies (pipes/cavities)
+
+## Publications
 
 [Vadose zone infiltration and its effects on groundwater vulnerability risk assessment in Siloam Village, Limpopo province, South Africa. Jamba-Disaster Risk Studies, (2019), Vol. 11(2) a682](https://jamba.org.za/index.php/jamba/article/view/682) 
 
