@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIGEKTO BUILDING SARL | Accueil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --migekto-blue: #002387;
+            --migekto-red: #e30613;
+            --light-bg: #f8f9fa;
+            --dark-text: #333333;
+            --white: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Montserrat', sans-serif; color: var(--dark-text); line-height: 1.6; }
+
+        /* Top Bar */
+        .top-bar { background: var(--migekto-blue); color: var(--white); padding: 8px 5%; display: flex; justify-content: space-between; font-size: 0.85rem; flex-wrap: wrap; }
+        .top-bar i { color: var(--migekto-red); margin-right: 8px; }
+        
+        /* Navigation */
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 15px 5%; background: var(--white); box-shadow: 0 4px 6px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
+        .logo { display: flex; flex-direction: column; }
+        .logo h1 { font-size: 1.8rem; font-weight: 800; color: var(--migekto-blue); text-transform: uppercase; letter-spacing: 1px; }
+        .logo h1 span { color: var(--migekto-red); }
+        .logo p { font-size: 0.7rem; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 2px; }
+        .nav-links { display: flex; gap: 20px; list-style: none; }
+        .nav-links a { text-decoration: none; color: var(--migekto-blue); font-weight: 600; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--migekto-red); }
+        .btn-quote { background: var(--migekto-red); color: var(--white); padding: 10px 24px; border-radius: 5px; text-decoration: none; font-weight: 600; transition: background 0.3s; }
+        .btn-quote:hover { background: #b0000a; color: var(--white); }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(0, 35, 135, 0.8), rgba(0, 35, 135, 0.8)), url('https://images.unsplash.com/photo-1541888081622-19e34e5a9de2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover; 
+            color: var(--white); text-align: center; padding: 100px 5%; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 60vh;
+        }
+        .hero h2 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 800; text-transform: uppercase; margin-bottom: 20px; max-width: 900px; line-height: 1.2; }
+        .hero p { font-size: 1.2rem; margin-bottom: 30px; max-width: 700px; }
+        .hero-btns { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; }
+        .btn-primary { background: var(--migekto-red); color: var(--white); padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: 800; font-size: 1.1rem; transition: transform 0.3s; }
+        .btn-primary:hover { transform: translateY(-3px); }
+        .btn-secondary { background: transparent; border: 2px solid var(--white); color: var(--white); padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: 800; font-size: 1.1rem; transition: background 0.3s; }
+        .btn-secondary:hover { background: var(--white); color: var(--migekto-blue); }
+
+        /* Features Bar */
+        .features-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); background: var(--light-bg); padding: 40px 5%; gap: 20px; text-align: center; }
+        .feature-item i { font-size: 2.5rem; color: var(--migekto-blue); margin-bottom: 15px; }
+        .feature-item h4 { color: var(--migekto-red); font-weight: 800; text-transform: uppercase; font-size: 0.9rem; }
+
+        /* Services Section */
+        .services { padding: 60px 5%; text-align: center; }
+        .section-title { font-size: 2.2rem; color: var(--migekto-blue); font-weight: 800; margin-bottom: 40px; text-transform: uppercase; }
+        .section-title span { color: var(--migekto-red); }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .service-card { background: var(--white); border: 1px solid #eaeaea; padding: 30px 20px; border-radius: 8px; transition: transform 0.3s, box-shadow 0.3s; box-shadow: 0 4px 15px rgba(0,0,0,0.03); }
+        .service-card:hover { transform: translateY(-10px); box-shadow: 0 10px 25px rgba(0, 35, 135, 0.15); border-bottom: 4px solid var(--migekto-red); }
+        .service-icon { width: 70px; height: 70px; background: var(--migekto-blue); color: var(--white); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 20px; }
+        .service-card h3 { color: var(--migekto-blue); font-size: 1.2rem; margin-bottom: 15px; text-transform: uppercase; }
+        .service-card p { color: #666; font-size: 0.9rem; }
+
+        /* Footer */
+        footer { background: var(--migekto-blue); color: var(--white); padding: 40px 5% 20px; text-align: center; }
+        footer h3 { color: var(--white); margin-bottom: 15px; font-size: 1.5rem; }
+        footer p { margin-bottom: 10px; font-size: 0.95rem; }
+        footer i { color: var(--migekto-red); margin-right: 10px; }
+        .copyright { margin-top: 30px; font-size: 0.8rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; color: #ccc; }
+
+        /* Responsive Design */
+        @media(max-width: 768px) {
+            .nav-links { display: none; } /* Hidden for simple mobile demo */
+            .top-bar { justify-content: center; gap: 10px; text-align: center; }
+            .hero { padding: 60px 5%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <span><i class="fas fa-map-marker-alt"></i> Carrefour de l'amitié Ekoumdoum, Yaoundé</span>
+        <span><i class="fas fa-phone-alt"></i> Tel: 687 26 77 74</span>
+    </div>
+
+    <nav>
+        <div class="logo">
+            <img src="../../images/logo.jpeg" alt="MIGEKTO BUILDING SARL Logo" style="max-height: 80px; width: auto;">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Nos Services</a></li>
+            <li><a href="#">Réalisations</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="btn-quote">Demander un Devis</a>
+    </nav>
+
+    <header class="hero">
+        <h2>Des Solutions Durables <br>Pour Tous Vos Besoins En Bâtiment</h2>
+        <p>L'expertise professionnelle au service de vos projets de construction, d'aménagement et de maintenance au Cameroun.</p>
+        <div class="hero-btns">
+            <a href="#services" class="btn-primary">Découvrir nos services</a>
+            <a href="tel:687267774" class="btn-secondary"><i class="fas fa-phone"></i> 687 26 77 74</a>
+        </div>
+    </header>
+
+    <section class="features-bar">
+        <div class="feature-item">
+            <i class="fas fa-hard-hat"></i>
+            <h4>Équipe Professionnelle</h4>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-medal"></i>
+            <h4>Travail de Qualité</h4>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-shield-alt"></i>
+            <h4>Sécurité Garantie</h4>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-clock"></i>
+            <h4>Respect des Délais</h4>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title">Nos <span>Expertises</span></h2>
+        <div class="services-grid">
+            
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-water"></i></div>
+                <h3>Forages Domestiques et Industriel</h3>
+                <p>Installation, maintenance et entretien de forages pour garantir un approvisionnement en eau continu et de qualité pour vos résidences et industries.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-snowflake"></i></div>
+                <h3>Froids et Climatisation</h3>
+                <p>Solutions complètes d'installation et de maintenance de systèmes de climatisation pour un confort thermique optimal en toute saison.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                <h3>Électricité en Bâtiment</h3>
+                <p>Installation sécurisée, mise aux normes et entretien de vos réseaux électriques domestiques et industriels par nos experts qualifiés.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-paint-roller"></i></div>
+                <h3>Travaux de Finitions</h3>
+                <p>Plomberie, carrelage, peinture intérieure/extérieure et décoration. Nous sublimons vos espaces avec des finitions impeccables.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <h3>MIGEKTO BUILDING SARL</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Yaoundé, Carrefour de l'amitié, Ekoumdoum</p>
+        <p><i class="fas fa-phone"></i> 687 26 77 74</p>
+        <p><i class="fas fa-envelope"></i> contact@migektobuilding.com</p>
+        <div class="copyright">
+            &copy; 2026 MIGEKTO BUILDING SARL. Tous droits réservés. <br>
+            <em>Bâtir aujourd'hui, construire demain.</em>
+        </div>
+    </footer>
+
+</body>
+</html>
